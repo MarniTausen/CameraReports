@@ -1,6 +1,6 @@
 Camera Status report
 ================
-18/05/2017 - 01:17:12
+18/05/2017 - 01:17:54
 
     All cameras are up and running
 
