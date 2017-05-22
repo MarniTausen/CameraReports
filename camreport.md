@@ -1,7 +1,12 @@
 Camera Status report
 ================
-22/05/2017 - 21:52:55
+22/05/2017 - 21:59:21
 
-    All cameras are up and running
+    Warning in file(file, "rt"): cannot open file 'camreport.csv': No such file
+    or directory
 
-![](camreport_files/figure-markdown_github/unnamed-chunk-2-1.png)
+    Error in file(file, "rt"): cannot open the connection
+
+    Error in eval(lhs, parent, parent): object 'report' not found
+
+    Error in nrow(downlist): object 'downlist' not found
