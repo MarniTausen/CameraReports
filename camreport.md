@@ -1,10 +1,7 @@
 Camera Status report
 ================
-20/06/2017 - 10:45:09
+20/06/2017 - 11:15:08
 
-    Cameras currently down:
-       Names Status
-    1 cam143   down
-    2 cam144   down
+    All cameras are up and running
 
 ![](camreport_files/figure-markdown_github/unnamed-chunk-2-1.png)
