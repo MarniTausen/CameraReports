@@ -1,6 +1,6 @@
 Camera Status report
 ================
-20/06/2017 - 08:45:15
+20/06/2017 - 09:15:20
 
     Cameras currently down:
        Names Status
