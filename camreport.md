@@ -1,6 +1,6 @@
 Camera Status report
 ================
-11/07/2017 - 00:15:06
+11/07/2017 - 00:45:05
 
     Warning in file(file, "rt"): cannot open file 'camreport.csv': No such file
     or directory
