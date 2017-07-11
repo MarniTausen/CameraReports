@@ -1,15 +1,26 @@
 Camera Status report
 ================
-11/07/2017 - 13:09:23
+11/07/2017 - 13:18:22
 
-    All cameras are up and running
+-   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
+-   [LIST OF BACKUP FOLDERS AND SIZE:](#list-of-backup-folders-and-size)
+-   [TEMPERATURES:](#temperatures)
 
-![](camreport_files/figure-markdown_github/unnamed-chunk-2-1.png)
+    Warning in file(file, "rt"): cannot open file 'camreport.csv': No such file
+    or directory
+
+    Error in file(file, "rt"): cannot open the connection
+
+    Error in eval(lhs, parent, parent): object 'report' not found
+
+    Error in nrow(downlist): object 'downlist' not found
+
+LIST OF DIRECTORIES AND FREE SPACE:
+===================================
 
 ``` text
-#LIST OF DIRECTORIES AND FREE SPACE:
 Filesystem     1K-blocks     Used Available Use% Mounted on
-/dev/root      103081248  8907548  88914436  10% /
+/dev/root      103081248  8807048  89014936  10% /
 devtmpfs         2753804        0   2753804   0% /dev
 tmpfs            2789004      884   2788120   1% /run
 tmpfs            2789004        0   2789004   0% /dev/shm
@@ -17,12 +28,14 @@ cgroup_root      2789004        0   2789004   0% /sys/fs/cgroup
 /dev/sda1        1032088    20580    959080   3% /boot
 /dev/sda3      722355288 53304080 632334664   8% /home
 cgmfs                100        0       100   0% /run/cgmanager/fs
-/dev/sdb1      920923124 26135492 847984332   3% /home/user1/DEPLOY2017/MURGENCYDRIVE
+/dev/sdb1      920923124 26236052 847883772   4% /home/user1/DEPLOY2017/MURGENCYDRIVE
 ```
 
+LIST OF BACKUP FOLDERS AND SIZE:
+================================
+
 ``` text
-#LIST OF BACKUP FOLDERS AND SIZE:
-total 1602780
+total 1703340
 -rw-r--r-- 1 user1 users     10240 Jul 11 11:44 MT20170711114149.tar
 -rw-r--r-- 1 user1 users 102748160 Jul 11 11:54 MT20170711115129.tar
 -rw-r--r-- 1 user1 users 102430720 Jul 11 11:57 MT20170711115453.tar
@@ -40,14 +53,17 @@ total 1602780
 -rw-r--r-- 1 user1 users 102758400 Jul 11 12:55 MT20170711125233.tar
 -rw-r--r-- 1 user1 users 103127040 Jul 11 12:58 MT20170711125555.tar
 -rw-r--r-- 1 user1 users 102789120 Jul 11 13:04 MT20170711130204.tar
+-rw-r--r-- 1 user1 users 102973440 Jul 11 13:08 MT20170711130534.tar
 drwx------ 2 user1 users     16384 Jun  8 14:47 lost+found
 drwxr-xr-x 3 user1 users      4096 Jun  8 16:00 murgency_pics
 ```
 
+TEMPERATURES:
+=============
+
 ``` text
-#TEMPERATURES:
 k8temp-pci-00c3
 Adapter: PCI adapter
 Core0 Temp:   +40.0 C  
-Core1 Temp:   +44.0 C  
+Core1 Temp:   +42.0 C  
 ```
