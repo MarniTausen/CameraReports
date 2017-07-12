@@ -1,6 +1,6 @@
 Camera Status report
 ================
-12/07/2017 - 08:45:50
+12/07/2017 - 09:20:54
 
 -   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
 -   [LIST OF BACKUP DIRECTORY AND SIZES:](#list-of-backup-directory-and-sizes)
@@ -15,7 +15,7 @@ LIST OF DIRECTORIES AND FREE SPACE:
 
 ``` text
 Filesystem     1K-blocks     Used Available Use% Mounted on
-/dev/root      103081248  8709540  89112444   9% /
+/dev/root      103081248  8709368  89112616   9% /
 devtmpfs         2753804        0   2753804   0% /dev
 tmpfs            2789004      884   2788120   1% /run
 tmpfs            2789004        0   2789004   0% /dev/shm
@@ -23,14 +23,14 @@ cgroup_root      2789004        0   2789004   0% /sys/fs/cgroup
 /dev/sda1        1032088    20580    959080   3% /boot
 /dev/sda3      722355288 53304084 632334660   8% /home
 cgmfs                100        0       100   0% /run/cgmanager/fs
-/dev/sdb1      920923124 48546888 825572936   6% /home/user1/DEPLOY2017/MURGENCYDRIVE
+/dev/sdb1      920923124 49374496 824745328   6% /home/user1/DEPLOY2017/MURGENCYDRIVE
 ```
 
 LIST OF BACKUP DIRECTORY AND SIZES:
 -----------------------------------
 
 ``` text
-total 24014160
+total 24841768
 -rw-r--r-- 1 user1 users     10240 Jul 11 11:44 MT20170711114149.tar
 -rw-r--r-- 1 user1 users 102748160 Jul 11 11:54 MT20170711115129.tar
 -rw-r--r-- 1 user1 users 102430720 Jul 11 11:57 MT20170711115453.tar
@@ -347,6 +347,14 @@ total 24014160
 -rw-r--r-- 1 user1 users 106383360 Jul 12 08:33 MT20170712083026.tar
 -rw-r--r-- 1 user1 users 106178560 Jul 12 08:37 MT20170712083420.tar
 -rw-r--r-- 1 user1 users 106024960 Jul 12 08:41 MT20170712083813.tar
+-rw-r--r-- 1 user1 users 106004480 Jul 12 08:44 MT20170712084208.tar
+-rw-r--r-- 1 user1 users 106004480 Jul 12 08:48 MT20170712084601.tar
+-rw-r--r-- 1 user1 users 105912320 Jul 12 08:52 MT20170712084955.tar
+-rw-r--r-- 1 user1 users 105830400 Jul 12 08:56 MT20170712085349.tar
+-rw-r--r-- 1 user1 users 105922560 Jul 12 09:00 MT20170712085743.tar
+-rw-r--r-- 1 user1 users 105912320 Jul 12 09:04 MT20170712090136.tar
+-rw-r--r-- 1 user1 users 105994240 Jul 12 09:08 MT20170712090529.tar
+-rw-r--r-- 1 user1 users 105881600 Jul 12 09:12 MT20170712090923.tar
 drwx------ 2 user1 users     16384 Jun  8 14:47 lost+found
 drwxr-xr-x 3 user1 users      4096 Jun  8 16:00 murgency_pics
 ```
@@ -358,5 +366,5 @@ TEMPERATURES:
 k8temp-pci-00c3
 Adapter: PCI adapter
 Core0 Temp:   +31.0 C  
-Core1 Temp:   +37.0 C  
+Core1 Temp:   +38.0 C  
 ```
