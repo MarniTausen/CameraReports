@@ -1,6 +1,6 @@
 Camera Status report
 ================
-13/07/2017 - 19:15:15
+13/07/2017 - 21:15:15
 
 -   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
 -   [TEMPERATURES:](#temperatures)
@@ -15,7 +15,7 @@ LIST OF DIRECTORIES AND FREE SPACE:
 
 ``` text
 Filesystem     1K-blocks     Used Available Use% Mounted on
-/dev/root      103081248  8707904  89114080   9% /
+/dev/root      103081248  8709660  89112324   9% /
 devtmpfs         2753804        0   2753804   0% /dev
 tmpfs            2789004      884   2788120   1% /run
 tmpfs            2789004        0   2789004   0% /dev/shm
@@ -23,7 +23,7 @@ cgroup_root      2789004        0   2789004   0% /sys/fs/cgroup
 /dev/sda1        1032088    20580    959080   3% /boot
 /dev/sda3      722355288 53304084 632334660   8% /home
 cgmfs                100        0       100   0% /run/cgmanager/fs
-/dev/sdb1      920923124 92849824 781270000  11% /home/user1/DEPLOY2017/MURGENCYDRIVE
+/dev/sdb1      920923124 96030536 778089288  11% /home/user1/DEPLOY2017/MURGENCYDRIVE
 ```
 
 TEMPERATURES:
@@ -32,15 +32,15 @@ TEMPERATURES:
 ``` text
 k8temp-pci-00c3
 Adapter: PCI adapter
-Core0 Temp:   +38.0 C  
-Core1 Temp:   +41.0 C  
+Core0 Temp:   +35.0 C  
+Core1 Temp:   +39.0 C  
 ```
 
 LIST OF BACKUP DIRECTORY AND SIZES:
 -----------------------------------
 
 ``` text
-total 68317080
+total 71497792
 -rw-r--r-- 1 user1 users     10240 Jul 11 11:44 MT20170711114149.tar
 -rw-r--r-- 1 user1 users 102748160 Jul 11 11:54 MT20170711115129.tar
 -rw-r--r-- 1 user1 users 102430720 Jul 11 11:57 MT20170711115453.tar
@@ -868,6 +868,37 @@ total 68317080
 -rw-r--r-- 1 user1 users 103854080 Jul 13 19:04 MT20170713190120.tar
 -rw-r--r-- 1 user1 users 104222720 Jul 13 19:08 MT20170713190514.tar
 -rw-r--r-- 1 user1 users 104386560 Jul 13 19:11 MT20170713190909.tar
+-rw-r--r-- 1 user1 users 104007680 Jul 13 19:15 MT20170713191303.tar
+-rw-r--r-- 1 user1 users 104263680 Jul 13 19:19 MT20170713191657.tar
+-rw-r--r-- 1 user1 users 102502400 Jul 13 19:23 MT20170713192051.tar
+-rw-r--r-- 1 user1 users 103915520 Jul 13 19:27 MT20170713192446.tar
+-rw-r--r-- 1 user1 users 104407040 Jul 13 19:31 MT20170713192839.tar
+-rw-r--r-- 1 user1 users 104704000 Jul 13 19:35 MT20170713193234.tar
+-rw-r--r-- 1 user1 users 104847360 Jul 13 19:39 MT20170713193629.tar
+-rw-r--r-- 1 user1 users 104970240 Jul 13 19:43 MT20170713194023.tar
+-rw-r--r-- 1 user1 users 105031680 Jul 13 19:47 MT20170713194417.tar
+-rw-r--r-- 1 user1 users 105093120 Jul 13 19:50 MT20170713194811.tar
+-rw-r--r-- 1 user1 users 105379840 Jul 13 19:54 MT20170713195206.tar
+-rw-r--r-- 1 user1 users 105564160 Jul 13 19:58 MT20170713195602.tar
+-rw-r--r-- 1 user1 users 105768960 Jul 13 20:02 MT20170713195956.tar
+-rw-r--r-- 1 user1 users 105799680 Jul 13 20:06 MT20170713200351.tar
+-rw-r--r-- 1 user1 users 105799680 Jul 13 20:10 MT20170713200745.tar
+-rw-r--r-- 1 user1 users 105717760 Jul 13 20:14 MT20170713201140.tar
+-rw-r--r-- 1 user1 users 105646080 Jul 13 20:18 MT20170713201534.tar
+-rw-r--r-- 1 user1 users 105564160 Jul 13 20:22 MT20170713201927.tar
+-rw-r--r-- 1 user1 users 105390080 Jul 13 20:26 MT20170713202321.tar
+-rw-r--r-- 1 user1 users 105123840 Jul 13 20:30 MT20170713202717.tar
+-rw-r--r-- 1 user1 users 104755200 Jul 13 20:33 MT20170713203111.tar
+-rw-r--r-- 1 user1 users 104601600 Jul 13 20:37 MT20170713203506.tar
+-rw-r--r-- 1 user1 users 104601600 Jul 13 20:41 MT20170713203901.tar
+-rw-r--r-- 1 user1 users 104898560 Jul 13 20:45 MT20170713204255.tar
+-rw-r--r-- 1 user1 users 105052160 Jul 13 20:49 MT20170713204650.tar
+-rw-r--r-- 1 user1 users 105267200 Jul 13 20:53 MT20170713205044.tar
+-rw-r--r-- 1 user1 users 105390080 Jul 13 20:57 MT20170713205438.tar
+-rw-r--r-- 1 user1 users 105564160 Jul 13 21:01 MT20170713205832.tar
+-rw-r--r-- 1 user1 users 105646080 Jul 13 21:05 MT20170713210226.tar
+-rw-r--r-- 1 user1 users 105594880 Jul 13 21:09 MT20170713210619.tar
+-rw-r--r-- 1 user1 users 106147840 Jul 13 21:13 MT20170713211015.tar
 drwx------ 2 user1 users     16384 Jun  8 14:47 lost+found
 drwxr-xr-x 3 user1 users      4096 Jun  8 16:00 murgency_pics
 ```
