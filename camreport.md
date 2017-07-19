@@ -1,6 +1,6 @@
 Camera Status report
 ================
-19/07/2017 - 15:15:07
+19/07/2017 - 15:45:10
 
 -   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
 -   [TEMPERATURES:](#temperatures)
@@ -15,7 +15,7 @@ LIST OF DIRECTORIES AND FREE SPACE:
 
 ``` text
 Filesystem     1K-blocks      Used Available Use% Mounted on
-/dev/root      103081248   8909972  88912012  10% /
+/dev/root      103081248   8707772  89114212   9% /
 devtmpfs         2753804         0   2753804   0% /dev
 tmpfs            2789004       884   2788120   1% /run
 tmpfs            2789004         0   2789004   0% /dev/shm
@@ -23,7 +23,7 @@ cgroup_root      2789004         0   2789004   0% /sys/fs/cgroup
 /dev/sda1        1032088     20580    959080   3% /boot
 /dev/sda3      722355288  53304084 632334660   8% /home
 cgmfs                100         0       100   0% /run/cgmanager/fs
-/dev/sdb1      920923124 261388852 612730972  30% /home/user1/DEPLOY2017/MURGENCYDRIVE
+/dev/sdb1      920923124 261795064 612324760  30% /home/user1/DEPLOY2017/MURGENCYDRIVE
 ```
 
 TEMPERATURES:
@@ -40,7 +40,7 @@ LIST OF BACKUP DIRECTORY AND SIZES:
 -----------------------------------
 
 ``` text
-total 236856020
+total 237262232
 -rw-r--r-- 1 user1 users     10240 Jul 11 11:44 MT20170711114149.tar
 -rw-r--r-- 1 user1 users 102748160 Jul 11 11:54 MT20170711115129.tar
 -rw-r--r-- 1 user1 users 102430720 Jul 11 11:57 MT20170711115453.tar
@@ -2966,6 +2966,10 @@ total 236856020
 -rw-r--r-- 1 user1 users 103649280 Jul 19 14:54 MT20170719145145.tar
 -rw-r--r-- 1 user1 users 103936000 Jul 19 14:58 MT20170719145540.tar
 -rw-r--r-- 1 user1 users 103813120 Jul 19 15:05 MT20170719150233.tar
+-rw-r--r-- 1 user1 users 103843840 Jul 19 15:09 MT20170719150631.tar
+-rw-r--r-- 1 user1 users 103731200 Jul 19 15:13 MT20170719151032.tar
+-rw-r--r-- 1 user1 users 104181760 Jul 19 15:17 MT20170719151431.tar
+-rw-r--r-- 1 user1 users 104202240 Jul 19 15:21 MT20170719151831.tar
 drwx------ 2 user1 users     16384 Jun  8 14:47 lost+found
 drwxr-xr-x 3 user1 users      4096 Jun  8 16:00 murgency_pics
 ```
