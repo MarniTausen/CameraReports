@@ -1,6 +1,6 @@
 Camera Status report
 ================
-20/07/2017 - 12:15:07
+20/07/2017 - 12:45:06
 
 -   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
 -   [TEMPERATURES:](#temperatures)
@@ -15,7 +15,7 @@ LIST OF DIRECTORIES AND FREE SPACE:
 
 ``` text
 Filesystem     1K-blocks      Used Available Use% Mounted on
-/dev/root      103081248   8809320  89012664  10% /
+/dev/root      103081248   8708260  89113724   9% /
 devtmpfs         2753804         0   2753804   0% /dev
 tmpfs            2789004       884   2788120   1% /run
 tmpfs            2789004         0   2789004   0% /dev/shm
@@ -23,7 +23,7 @@ cgroup_root      2789004         0   2789004   0% /sys/fs/cgroup
 /dev/sda1        1032088     20580    959080   3% /boot
 /dev/sda3      722355288  53304084 632334660   8% /home
 cgmfs                100         0       100   0% /run/cgmanager/fs
-/dev/sdb1      920923124 285580024 588539800  33% /home/user1/DEPLOY2017/MURGENCYDRIVE
+/dev/sdb1      920923124 285784396 588335428  33% /home/user1/DEPLOY2017/MURGENCYDRIVE
 ```
 
 TEMPERATURES:
@@ -40,7 +40,7 @@ LIST OF BACKUP DIRECTORY AND SIZES:
 -----------------------------------
 
 ``` text
-total 261047184
+total 261251556
 -rw-r--r-- 1 user1 users     10240 Jul 11 11:44 MT20170711114149.tar
 -rw-r--r-- 1 user1 users 102748160 Jul 11 11:54 MT20170711115129.tar
 -rw-r--r-- 1 user1 users 102430720 Jul 11 11:57 MT20170711115453.tar
@@ -3286,6 +3286,8 @@ total 261047184
 -rw-r--r-- 1 user1 users 104284160 Jul 20 11:59 MT20170720115703.tar
 -rw-r--r-- 1 user1 users 104089600 Jul 20 12:06 MT20170720120356.tar
 -rw-r--r-- 1 user1 users 104161280 Jul 20 12:10 MT20170720120753.tar
+-rw-r--r-- 1 user1 users 104560640 Jul 20 12:14 MT20170720121151.tar
+-rw-r--r-- 1 user1 users 104714240 Jul 20 12:18 MT20170720121546.tar
 drwx------ 2 user1 users     16384 Jun  8 14:47 lost+found
 drwxr-xr-x 3 user1 users      4096 Jun  8 16:00 murgency_pics
 ```
