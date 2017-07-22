@@ -1,6 +1,6 @@
 Camera Status report
 ================
-21/07/2017 - 20:45:07
+22/07/2017 - 02:15:07
 
 -   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
 -   [TEMPERATURES:](#temperatures)
@@ -15,7 +15,7 @@ LIST OF DIRECTORIES AND FREE SPACE:
 
 ``` text
 Filesystem     1K-blocks      Used Available Use% Mounted on
-/dev/root      103081248   8712612  89109372   9% /
+/dev/root      103081248   8616704  89205280   9% /
 devtmpfs         2753804         0   2753804   0% /dev
 tmpfs            2789004       884   2788120   1% /run
 tmpfs            2789004         0   2789004   0% /dev/shm
@@ -23,7 +23,7 @@ cgroup_root      2789004         0   2789004   0% /sys/fs/cgroup
 /dev/sda1        1032088     20580    959080   3% /boot
 /dev/sda3      722355288  53304084 632334660   8% /home
 cgmfs                100         0       100   0% /run/cgmanager/fs
-/dev/sdb1      920923124 325881784 548238040  38% /home/user1/DEPLOY2017/MURGENCYDRIVE
+/dev/sdb1      920923124 328824780 545295044  38% /home/user1/DEPLOY2017/MURGENCYDRIVE
 ```
 
 TEMPERATURES:
@@ -32,15 +32,15 @@ TEMPERATURES:
 ``` text
 k8temp-pci-00c3
 Adapter: PCI adapter
-Core0 Temp:   +37.0 C  
-Core1 Temp:   +39.0 C  
+Core0 Temp:   +34.0 C  
+Core1 Temp:   +38.0 C  
 ```
 
 LIST OF BACKUP DIRECTORY AND SIZES:
 -----------------------------------
 
 ``` text
-total 301348928
+total 304291916
 -rw-r--r-- 1 user1 users     10240 Jul 11 11:44 MT20170711114149.tar
 -rw-r--r-- 1 user1 users 102748160 Jul 11 11:54 MT20170711115129.tar
 -rw-r--r-- 1 user1 users 102430720 Jul 11 11:57 MT20170711115453.tar
@@ -3769,6 +3769,92 @@ total 301348928
 -rw-r--r-- 1 user1 users 107089920 Jul 21 20:32 MT20170721202928.tar
 -rw-r--r-- 1 user1 users 107683840 Jul 21 20:36 MT20170721203323.tar
 -rw-r--r-- 1 user1 users 109158400 Jul 21 20:40 MT20170721203718.tar
+-rw-r--r-- 1 user1 users 109199360 Jul 21 20:44 MT20170721204113.tar
+-rw-r--r-- 1 user1 users 109066240 Jul 21 20:47 MT20170721204507.tar
+-rw-r--r-- 1 user1 users 108953600 Jul 21 20:51 MT20170721204902.tar
+-rw-r--r-- 1 user1 users 108769280 Jul 21 20:55 MT20170721205257.tar
+-rw-r--r-- 1 user1 users 109260800 Jul 21 20:59 MT20170721205653.tar
+-rw-r--r-- 1 user1 users 112875520 Jul 21 21:03 MT20170721210047.tar
+-rw-r--r-- 1 user1 users 113592320 Jul 21 21:07 MT20170721210442.tar
+-rw-r--r-- 1 user1 users 116224000 Jul 21 21:11 MT20170721210837.tar
+-rw-r--r-- 1 user1 users 111923200 Jul 21 21:15 MT20170721211232.tar
+-rw-r--r-- 1 user1 users 110888960 Jul 21 21:19 MT20170721211627.tar
+-rw-r--r-- 1 user1 users 110356480 Jul 21 21:23 MT20170721212022.tar
+-rw-r--r-- 1 user1 users 110274560 Jul 21 21:27 MT20170721212417.tar
+-rw-r--r-- 1 user1 users 112281600 Jul 21 21:31 MT20170721212812.tar
+-rw-r--r-- 1 user1 users 112680960 Jul 21 21:34 MT20170721213207.tar
+-rw-r--r-- 1 user1 users 112578560 Jul 21 21:38 MT20170721213603.tar
+-rw-r--r-- 1 user1 users 111800320 Jul 21 21:42 MT20170721213958.tar
+-rw-r--r-- 1 user1 users 107591680 Jul 21 21:46 MT20170721214353.tar
+-rw-r--r-- 1 user1 users 101754880 Jul 21 21:50 MT20170721214748.tar
+-rw-r--r-- 1 user1 users  85852160 Jul 21 21:54 MT20170721215144.tar
+-rw-r--r-- 1 user1 users  79452160 Jul 21 21:58 MT20170721215537.tar
+-rw-r--r-- 1 user1 users  60375040 Jul 21 22:02 MT20170721215930.tar
+-rw-r--r-- 1 user1 users  41799680 Jul 21 22:06 MT20170721220322.tar
+-rw-r--r-- 1 user1 users  30085120 Jul 21 22:09 MT20170721220713.tar
+-rw-r--r-- 1 user1 users  24524800 Jul 21 22:13 MT20170721221102.tar
+-rw-r--r-- 1 user1 users  23234560 Jul 21 22:17 MT20170721221452.tar
+-rw-r--r-- 1 user1 users  15052800 Jul 21 22:21 MT20170721221840.tar
+-rw-r--r-- 1 user1 users  11724800 Jul 21 22:25 MT20170721222228.tar
+-rw-r--r-- 1 user1 users  10741760 Jul 21 22:29 MT20170721222618.tar
+-rw-r--r-- 1 user1 users  10844160 Jul 21 22:32 MT20170721223007.tar
+-rw-r--r-- 1 user1 users  10864640 Jul 21 22:36 MT20170721223357.tar
+-rw-r--r-- 1 user1 users  10936320 Jul 21 22:40 MT20170721223746.tar
+-rw-r--r-- 1 user1 users  11028480 Jul 21 22:44 MT20170721224134.tar
+-rw-r--r-- 1 user1 users  11038720 Jul 21 22:48 MT20170721224521.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 21 22:51 MT20170721224911.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 21 22:55 MT20170721225302.tar
+-rw-r--r-- 1 user1 users  11069440 Jul 21 22:59 MT20170721225651.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 21 23:03 MT20170721230039.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 21 23:07 MT20170721230426.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 21 23:10 MT20170721230815.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 21 23:14 MT20170721231204.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 21 23:18 MT20170721231552.tar
+-rw-r--r-- 1 user1 users  11069440 Jul 21 23:22 MT20170721231941.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 21 23:26 MT20170721232329.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 21 23:30 MT20170721232718.tar
+-rw-r--r-- 1 user1 users  11038720 Jul 21 23:33 MT20170721233106.tar
+-rw-r--r-- 1 user1 users  11038720 Jul 21 23:37 MT20170721233455.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 21 23:41 MT20170721233844.tar
+-rw-r--r-- 1 user1 users  11069440 Jul 21 23:45 MT20170721234231.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 21 23:49 MT20170721234619.tar
+-rw-r--r-- 1 user1 users  11069440 Jul 21 23:52 MT20170721235007.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 21 23:56 MT20170721235355.tar
+-rw-r--r-- 1 user1 users  11069440 Jul 22 00:00 MT20170721235742.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 22 00:04 MT20170722000130.tar
+-rw-r--r-- 1 user1 users  11038720 Jul 22 00:08 MT20170722000519.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 22 00:11 MT20170722000907.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 22 00:15 MT20170722001256.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 22 00:19 MT20170722001644.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 22 00:23 MT20170722002032.tar
+-rw-r--r-- 1 user1 users  11069440 Jul 22 00:27 MT20170722002420.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 22 00:30 MT20170722002809.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 22 00:34 MT20170722003157.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 22 00:38 MT20170722003545.tar
+-rw-r--r-- 1 user1 users  11069440 Jul 22 00:42 MT20170722003933.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 22 00:46 MT20170722004321.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 22 00:49 MT20170722004709.tar
+-rw-r--r-- 1 user1 users  11069440 Jul 22 00:53 MT20170722005059.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 22 00:57 MT20170722005446.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 22 01:01 MT20170722005834.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 22 01:05 MT20170722010223.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 22 01:08 MT20170722010612.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 22 01:12 MT20170722011000.tar
+-rw-r--r-- 1 user1 users  11069440 Jul 22 01:16 MT20170722011348.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 22 01:20 MT20170722011736.tar
+-rw-r--r-- 1 user1 users  11038720 Jul 22 01:24 MT20170722012125.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 22 01:27 MT20170722012514.tar
+-rw-r--r-- 1 user1 users  11038720 Jul 22 01:31 MT20170722012901.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 22 01:35 MT20170722013248.tar
+-rw-r--r-- 1 user1 users  11038720 Jul 22 01:39 MT20170722013636.tar
+-rw-r--r-- 1 user1 users  11069440 Jul 22 01:43 MT20170722014024.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 22 01:46 MT20170722014412.tar
+-rw-r--r-- 1 user1 users  11038720 Jul 22 01:50 MT20170722014800.tar
+-rw-r--r-- 1 user1 users  11038720 Jul 22 01:54 MT20170722015147.tar
+-rw-r--r-- 1 user1 users  11038720 Jul 22 01:58 MT20170722015536.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 22 02:02 MT20170722015924.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 22 02:05 MT20170722020312.tar
+-rw-r--r-- 1 user1 users  11038720 Jul 22 02:09 MT20170722020700.tar
 drwx------ 2 user1 users     16384 Jun  8 14:47 lost+found
 drwxr-xr-x 3 user1 users      4096 Jun  8 16:00 murgency_pics
 ```
