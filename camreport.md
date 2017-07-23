@@ -1,6 +1,6 @@
 Camera Status report
 ================
-24/07/2017 - 00:45:07
+24/07/2017 - 01:15:07
 
 -   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
 -   [TEMPERATURES:](#temperatures)
@@ -23,7 +23,7 @@ cgroup_root      2789004         0   2789004   0% /sys/fs/cgroup
 /dev/sda1        1032088     20580    959080   3% /boot
 /dev/sda3      722355288  53304084 632334660   8% /home
 cgmfs                100         0       100   0% /run/cgmanager/fs
-/dev/sdb1      920923124 385346168 488773656  45% /home/user1/DEPLOY2017/MURGENCYDRIVE
+/dev/sdb1      920923124 385432592 488687232  45% /home/user1/DEPLOY2017/MURGENCYDRIVE
 ```
 
 TEMPERATURES:
@@ -32,15 +32,15 @@ TEMPERATURES:
 ``` text
 k8temp-pci-00c3
 Adapter: PCI adapter
-Core0 Temp:   +31.0 C  
-Core1 Temp:   +36.0 C  
+Core0 Temp:   +32.0 C  
+Core1 Temp:   +35.0 C  
 ```
 
 LIST OF BACKUP DIRECTORY AND SIZES:
 -----------------------------------
 
 ``` text
-total 360813276
+total 360899700
 -rw-r--r-- 1 user1 users     10240 Jul 11 11:44 MT20170711114149.tar
 -rw-r--r-- 1 user1 users 102748160 Jul 11 11:54 MT20170711115129.tar
 -rw-r--r-- 1 user1 users 102430720 Jul 11 11:57 MT20170711115453.tar
@@ -4550,6 +4550,14 @@ total 360813276
 -rw-r--r-- 1 user1 users  11069440 Jul 24 00:30 MT20170724002728.tar
 -rw-r--r-- 1 user1 users  11059200 Jul 24 00:33 MT20170724003117.tar
 -rw-r--r-- 1 user1 users  11059200 Jul 24 00:37 MT20170724003506.tar
+-rw-r--r-- 1 user1 users  11079680 Jul 24 00:41 MT20170724003853.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 24 00:45 MT20170724004241.tar
+-rw-r--r-- 1 user1 users  11038720 Jul 24 00:49 MT20170724004629.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 24 00:52 MT20170724005016.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 24 00:56 MT20170724005405.tar
+-rw-r--r-- 1 user1 users  11059200 Jul 24 01:00 MT20170724005754.tar
+-rw-r--r-- 1 user1 users  11100160 Jul 24 01:04 MT20170724010141.tar
+-rw-r--r-- 1 user1 users  11048960 Jul 24 01:08 MT20170724010529.tar
 drwx------ 2 user1 users     16384 Jun  8 14:47 lost+found
 drwxr-xr-x 3 user1 users      4096 Jun  8 16:00 murgency_pics
 ```
