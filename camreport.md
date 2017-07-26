@@ -1,6 +1,6 @@
 Camera Status report
 ================
-26/07/2017 - 05:45:44
+26/07/2017 - 07:19:10
 
 -   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
 -   [TEMPERATURES:](#temperatures)
@@ -15,7 +15,7 @@ LIST OF DIRECTORIES AND FREE SPACE:
 
 ``` text
 Filesystem     1K-blocks      Used Available Use% Mounted on
-/dev/root      103081248   8716928  89105056   9% /
+/dev/root      103081248   8712920  89109064   9% /
 devtmpfs         2753804         0   2753804   0% /dev
 tmpfs            2789004       884   2788120   1% /run
 tmpfs            2789004         0   2789004   0% /dev/shm
@@ -23,7 +23,7 @@ cgroup_root      2789004         0   2789004   0% /sys/fs/cgroup
 /dev/sda1        1032088     20580    959080   3% /boot
 /dev/sda3      722355288  53304084 632334660   8% /home
 cgmfs                100         0       100   0% /run/cgmanager/fs
-/dev/sdb1      920923124 443785632 430334192  51% /home/user1/DEPLOY2017/MURGENCYDRIVE
+/dev/sdb1      920923124 446294544 427825280  52% /home/user1/DEPLOY2017/MURGENCYDRIVE
 ```
 
 TEMPERATURES:
@@ -40,7 +40,7 @@ LIST OF BACKUP DIRECTORY AND SIZES:
 -----------------------------------
 
 ``` text
-total 419252708
+total 421761620
 -rw-r--r-- 1 user1 users     10240 Jul 11 11:44 MT20170711114149.tar
 -rw-r--r-- 1 user1 users 102748160 Jul 11 11:54 MT20170711115129.tar
 -rw-r--r-- 1 user1 users 102430720 Jul 11 11:57 MT20170711115453.tar
@@ -5348,6 +5348,29 @@ total 419252708
 -rw-r--r-- 1 user1 users 115148800 Jul 26 05:31 MT20170726052823.tar
 -rw-r--r-- 1 user1 users 113408000 Jul 26 05:35 MT20170726053218.tar
 -rw-r--r-- 1 user1 users 113551360 Jul 26 05:39 MT20170726053613.tar
+-rw-r--r-- 1 user1 users 113838080 Jul 26 05:42 MT20170726054008.tar
+-rw-r--r-- 1 user1 users 114022400 Jul 26 05:46 MT20170726054402.tar
+-rw-r--r-- 1 user1 users 113991680 Jul 26 05:50 MT20170726054758.tar
+-rw-r--r-- 1 user1 users 113541120 Jul 26 05:54 MT20170726055153.tar
+-rw-r--r-- 1 user1 users 113274880 Jul 26 05:58 MT20170726055548.tar
+-rw-r--r-- 1 user1 users 112998400 Jul 26 06:02 MT20170726055943.tar
+-rw-r--r-- 1 user1 users 112721920 Jul 26 06:06 MT20170726060338.tar
+-rw-r--r-- 1 user1 users 112465920 Jul 26 06:10 MT20170726060734.tar
+-rw-r--r-- 1 user1 users 112291840 Jul 26 06:14 MT20170726061129.tar
+-rw-r--r-- 1 user1 users 112158720 Jul 26 06:18 MT20170726061524.tar
+-rw-r--r-- 1 user1 users 112087040 Jul 26 06:22 MT20170726061919.tar
+-rw-r--r-- 1 user1 users 112424960 Jul 26 06:26 MT20170726062316.tar
+-rw-r--r-- 1 user1 users 112404480 Jul 26 06:29 MT20170726062710.tar
+-rw-r--r-- 1 user1 users 111452160 Jul 26 06:33 MT20170726063105.tar
+-rw-r--r-- 1 user1 users 111370240 Jul 26 06:37 MT20170726063500.tar
+-rw-r--r-- 1 user1 users 110540800 Jul 26 06:41 MT20170726063855.tar
+-rw-r--r-- 1 user1 users 110274560 Jul 26 06:45 MT20170726064250.tar
+-rw-r--r-- 1 user1 users 109936640 Jul 26 06:49 MT20170726064645.tar
+-rw-r--r-- 1 user1 users 109568000 Jul 26 06:53 MT20170726065040.tar
+-rw-r--r-- 1 user1 users 109455360 Jul 26 06:57 MT20170726065434.tar
+-rw-r--r-- 1 user1 users 109404160 Jul 26 07:01 MT20170726065829.tar
+-rw-r--r-- 1 user1 users 109434880 Jul 26 07:05 MT20170726070223.tar
+-rw-r--r-- 1 user1 users 109445120 Jul 26 07:09 MT20170726070617.tar
 drwx------ 2 user1 users     16384 Jun  8 14:47 lost+found
 drwxr-xr-x 3 user1 users      4096 Jun  8 16:00 murgency_pics
 ```
