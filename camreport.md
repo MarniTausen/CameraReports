@@ -1,6 +1,6 @@
 Camera Status report
 ================
-31/07/2017 - 22:15:56
+31/07/2017 - 22:46:05
 
 -   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
 -   [TEMPERATURES:](#temperatures)
