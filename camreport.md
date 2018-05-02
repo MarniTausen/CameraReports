@@ -1,16 +1,14 @@
 Camera Status report
 ================
-02/05/2018 - 12:46:15
+02/05/2018 - 13:17:04
 
 -   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
 -   [TEMPERATURES:](#temperatures)
 -   [LIST OF BACKUP DIRECTORY AND SIZES:](#list-of-backup-directory-and-sizes)
 
-    Cameras currently down:
-      Names Status
-    1 cam64   down
+    All cameras are up and running
 
-![](camreport_files/figure-markdown_github/unnamed-chunk-2-1.png)
+    Error in `$<-.data.frame`(`*tmp*`, x, value = c(1L, 2L, 3L, 4L, 1L, 2L, : replacement has 180 rows, data has 0
 
 LIST OF DIRECTORIES AND FREE SPACE:
 -----------------------------------
