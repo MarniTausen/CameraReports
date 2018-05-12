@@ -1,19 +1,14 @@
 Camera Status report
 ================
-12/05/2018 - 23:26:36
+12/05/2018 - 23:46:00
 
 -   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
 -   [TEMPERATURES:](#temperatures)
 -   [LIST OF BACKUP DIRECTORY AND SIZES:](#list-of-backup-directory-and-sizes)
 
-    Warning in file(file, "rt"): cannot open file 'camreport.csv': No such file
-    or directory
+    All cameras are up and running
 
-    Error in file(file, "rt"): cannot open the connection
-
-    Error in eval(lhs, parent, parent): object 'report' not found
-
-    Error in nrow(downlist): object 'downlist' not found
+    Error in `$<-.data.frame`(`*tmp*`, x, value = c(1L, 2L, 3L, 4L, 1L, 2L, : replacement has 180 rows, data has 0
 
 LIST OF DIRECTORIES AND FREE SPACE:
 -----------------------------------
