@@ -1,32 +1,30 @@
 Camera Status report
 ================
-16/05/2018 - 23:15:32
+16/05/2018 - 23:45:09
 
 -   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
 -   [TEMPERATURES:](#temperatures)
 -   [LIST OF BACKUP DIRECTORY AND SIZES:](#list-of-backup-directory-and-sizes)
 
-    Warning in file(file, "rt"): cannot open file 'camreport.csv': No such file
-    or directory
+    Cameras currently down:
+      Names Status
+    1 cam60   down
+    2 cam64   down
 
-    Error in file(file, "rt"): cannot open the connection
-
-    Error in eval(lhs, parent, parent): object 'report' not found
-
-    Error in nrow(downlist): object 'downlist' not found
+![](camreport_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
 LIST OF DIRECTORIES AND FREE SPACE:
 -----------------------------------
 
 ``` text
 Filesystem     1K-blocks     Used Available Use% Mounted on
-/dev/root      103081248  9467848  88354136  10% /
+/dev/root      103081248  9373376  88448608  10% /
 devtmpfs         1017504        0   1017504   0% /dev
 tmpfs            1019728      880   1018848   1% /run
 tmpfs            1019728       68   1019660   1% /dev/shm
 cgroup_root      1019728        0   1019728   0% /sys/fs/cgroup
 /dev/sda1        1032088    20580    959080   3% /boot
-/dev/sda3      722355288 66462260 619176484  10% /home
+/dev/sda3      722355288 69470560 616168184  11% /home
 cgmfs                100        0       100   0% /run/cgmanager/fs
 ```
 
@@ -41,14 +39,13 @@ LIST OF BACKUP DIRECTORY AND SIZES:
 -----------------------------------
 
 ``` text
-total 5300264
+total 8334552
 -rw-r--r-- 1 user1 users 115322880 May  4 15:33 MT20180504153129.tar
 -rw-r--r-- 1 user1 users 115384320 May  4 15:38 MT20180504153701.tar
 -rw-r--r-- 1 user1 users  87592960 May 15 16:58 MT20180515165646.tar
 -rw-r--r-- 1 user1 users     10240 May 15 17:08 MT20180515170645.tar
 -rw-r--r-- 1 user1 users 124968960 May 15 17:14 MT20180515171309.tar
 -rw-r--r-- 1 user1 users 125235200 May 15 17:31 MT20180515172958.tar
-drwxr-xr-x 2 user1 users     12288 May 15 17:37 MT20180515173545
 -rw-r--r-- 1 user1 users 125184000 May 15 17:37 MT20180515173545.tar
 -rw-r--r-- 1 user1 users 125388800 May 15 17:45 MT20180515174359.tar
 -rw-r--r-- 1 user1 users 125337600 May 15 18:07 MT20180515180553.tar
@@ -102,5 +99,33 @@ drwxr-xr-x 2 user1 users     12288 May 15 17:37 MT20180515173545
 -rw-r--r-- 1 user1 users 124712960 May 16 12:18 MT20180516121536.tar
 -rw-r--r-- 1 user1 users 124477440 May 16 12:30 MT20180516122721.tar
 -rw-r--r-- 1 user1 users 124416000 May 16 12:44 MT20180516124117.tar
-drwxr-xr-x 4 user1 users      4096 May 15 17:18 tmp
+-rw-r--r-- 1 user1 users 122992640 May 16 13:07 MT20180516130433.tar
+-rw-r--r-- 1 user1 users 124323840 May 16 13:30 MT20180516132745.tar
+-rw-r--r-- 1 user1 users 123944960 May 16 13:54 MT20180516135058.tar
+-rw-r--r-- 1 user1 users 123904000 May 16 14:17 MT20180516141410.tar
+-rw-r--r-- 1 user1 users 124078080 May 16 14:40 MT20180516143722.tar
+-rw-r--r-- 1 user1 users 123914240 May 16 15:03 MT20180516150036.tar
+-rw-r--r-- 1 user1 users 124252160 May 16 15:27 MT20180516152350.tar
+-rw-r--r-- 1 user1 users 124538880 May 16 15:50 MT20180516154703.tar
+-rw-r--r-- 1 user1 users 124805120 May 16 16:12 MT20180516160905.tar
+-rw-r--r-- 1 user1 users 125194240 May 16 16:35 MT20180516163220.tar
+-rw-r--r-- 1 user1 users 125480960 May 16 16:58 MT20180516165534.tar
+-rw-r--r-- 1 user1 users 125706240 May 16 17:22 MT20180516171849.tar
+-rw-r--r-- 1 user1 users 126136320 May 16 17:45 MT20180516174204.tar
+-rw-r--r-- 1 user1 users 126300160 May 16 18:08 MT20180516180520.tar
+-rw-r--r-- 1 user1 users 126709760 May 16 18:31 MT20180516182836.tar
+-rw-r--r-- 1 user1 users 126883840 May 16 18:55 MT20180516185152.tar
+-rw-r--r-- 1 user1 users 128112640 May 16 19:18 MT20180516191508.tar
+-rw-r--r-- 1 user1 users 128450560 May 16 19:41 MT20180516193826.tar
+-rw-r--r-- 1 user1 users 128430080 May 16 20:05 MT20180516200144.tar
+-rw-r--r-- 1 user1 users 128491520 May 16 20:28 MT20180516202502.tar
+-rw-r--r-- 1 user1 users 131481600 May 16 20:51 MT20180516204819.tar
+-rw-r--r-- 1 user1 users 137390080 May 16 21:15 MT20180516211140.tar
+-rw-r--r-- 1 user1 users 140574720 May 16 21:38 MT20180516213506.tar
+-rw-r--r-- 1 user1 users  73543680 May 16 22:01 MT20180516215836.tar
+-rw-r--r-- 1 user1 users  28661760 May 16 22:23 MT20180516222123.tar
+-rw-r--r-- 1 user1 users  27893760 May 16 22:45 MT20180516224330.tar
+-rw-r--r-- 1 user1 users  27637760 May 16 23:07 MT20180516230538.tar
+-rw-r--r-- 1 user1 users  27269120 May 16 23:29 MT20180516232745.tar
+drwxr-xr-x 3 user1 users      4096 May 16 22:02 tmp
 ```
