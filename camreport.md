@@ -1,6 +1,6 @@
 Camera Status report
 ================
-16/05/2018 - 10:45:42
+16/05/2018 - 11:16:37
 
 -   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
 -   [TEMPERATURES:](#temperatures)
@@ -18,13 +18,13 @@ LIST OF DIRECTORIES AND FREE SPACE:
 
 ``` text
 Filesystem     1K-blocks     Used Available Use% Mounted on
-/dev/root      103081248  9632208  88189776  10% /
+/dev/root      103081248  9513124  88308860  10% /
 devtmpfs         1017504        0   1017504   0% /dev
 tmpfs            1019728      880   1018848   1% /run
 tmpfs            1019728       68   1019660   1% /dev/shm
 cgroup_root      1019728        0   1019728   0% /sys/fs/cgroup
 /dev/sda1        1032088    20580    959080   3% /boot
-/dev/sda3      722355288 65940088 619698656  10% /home
+/dev/sda3      722355288 65945940 619692804  10% /home
 cgmfs                100        0       100   0% /run/cgmanager/fs
 ```
 
