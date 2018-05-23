@@ -1,6 +1,6 @@
 Camera Status report
 ================
-24/05/2018 - 00:15:07
+24/05/2018 - 00:45:06
 
 -   [LIST OF DIRECTORIES AND FREE SPACE:](#list-of-directories-and-free-space)
 -   [TEMPERATURES:](#temperatures)
@@ -15,13 +15,13 @@ LIST OF DIRECTORIES AND FREE SPACE:
 
 ``` text
 Filesystem     1K-blocks      Used Available Use% Mounted on
-/dev/root      103081248   9373896  88448088  10% /
+/dev/root      103081248   9373860  88448124  10% /
 devtmpfs         1017504         0   1017504   0% /dev
 tmpfs            1019728       880   1018848   1% /run
 tmpfs            1019728         0   1019728   0% /dev/shm
 cgroup_root      1019728         0   1019728   0% /sys/fs/cgroup
 /dev/sda1        1032088     20580    959080   3% /boot
-/dev/sda3      722355288 106096580 579542164  16% /home
+/dev/sda3      722355288 106123832 579514912  16% /home
 cgmfs                100         0       100   0% /run/cgmanager/fs
 ```
 
@@ -36,7 +36,7 @@ LIST OF BACKUP DIRECTORY AND SIZES:
 -----------------------------------
 
 ``` text
-total 44621580
+total 44648832
 -rw-r--r-- 1 user1 users 115322880 May  4 15:33 MT20180504153129.tar
 -rw-r--r-- 1 user1 users 115384320 May  4 15:38 MT20180504153701.tar
 -rw-r--r-- 1 user1 users  87592960 May 15 16:58 MT20180515165646.tar
@@ -488,6 +488,7 @@ total 44621580
 -rw-r--r-- 1 user1 users 136499200 May 23 21:08 MT20180523210409.tar
 -rw-r--r-- 1 user1 users 102430720 May 23 22:13 MT20180523220846.tar
 -rw-r--r-- 1 user1 users  28016640 May 23 23:16 MT20180523231304.tar
+-rw-r--r-- 1 user1 users  27904000 May 24 00:19 MT20180524001624.tar
 -rw-r--r-- 1 user1 users       215 May 17 11:17 testscans.sh
 drwxr-xr-x 3 user1 users      4096 May 22 13:29 tmp
 ```
